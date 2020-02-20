@@ -34,6 +34,7 @@ class Song
       @genre_count += 1
       @genre_count = {@genre: @genre_count}
     end
+    end
   end
   
   def self.artist_count
