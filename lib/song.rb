@@ -29,4 +29,10 @@ class Song
     @@genres.uniq
   end
   
+  def self.artist_count
+    if artist == @artist
+      artist_count += 1
+    end
+  end
+  
 end
