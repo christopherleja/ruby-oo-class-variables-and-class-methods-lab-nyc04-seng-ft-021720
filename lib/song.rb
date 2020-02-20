@@ -36,7 +36,7 @@ class Song
         artist_count += 1
         @@artist_count = {@artist => artist_count}
       end
-    @@artist_count
+    @@artist_count.uniq
     end
   end
   
