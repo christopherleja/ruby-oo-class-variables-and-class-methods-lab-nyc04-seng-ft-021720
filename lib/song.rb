@@ -29,9 +29,4 @@ class Song
     @@genres.uniq
   end
   
-  def artist_count
-   if @artist_count[@artist] == @artist
-     @artist_count[@artist] += 1
-  end
-  
 end
