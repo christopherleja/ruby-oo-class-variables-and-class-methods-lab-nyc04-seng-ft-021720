@@ -1,7 +1,7 @@
 require 'pry'
 
 class Song
-  attr_accessor :name, :artist, :genre, :artist_count, :artist_hash
+  attr_accessor :name, :artist, :genre, :artist_count
   
   @@count = 0
   @@genres = []
@@ -16,7 +16,6 @@ class Song
     @@genres << genre
     @@artists << artist
     @artist_count += 1
-    @artist_hash = {@artist: @artist_count)
   end
   
   def self.count
