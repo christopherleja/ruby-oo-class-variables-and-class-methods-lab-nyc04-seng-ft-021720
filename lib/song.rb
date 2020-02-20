@@ -41,9 +41,13 @@ class Song
     @@artists.each do |artist|
       if artist == @artist
         artist_count += 1
+        hash = {}
+        hash[key] = @artist
+        hash[@artist] = artist_count
         {@artist => artist_count}
       end
     end
+    hash
   end
   
 end
