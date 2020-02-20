@@ -33,13 +33,14 @@ class Song
   end
   
   def self.artist_count
-    @@artists.each do |artist|
-      if artist == @artist
-        artist_count += 1
-        @@artist_count = {@artist => artist_count}
-      end
-    @@artist_count.uniq
-    end
+    @@artist_count
+    # @@artists.each do |artist|
+    #   if artist == @artist
+    #     artist_count += 1
+    #     @@artist_count = {@artist => artist_count}
+    #   end
+    # @@artist_count.uniq
+    # end
   end
   
 end
