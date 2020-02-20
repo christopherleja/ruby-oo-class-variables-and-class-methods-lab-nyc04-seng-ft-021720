@@ -30,8 +30,10 @@ class Song
   end
   
   def self.artist_count
-    if artist == @artist
-      artist_count += 1
+    @@artists.each do |artist|
+      if artist == @artist
+        artist_count += 1
+      end
     end
   end
   
