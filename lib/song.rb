@@ -37,6 +37,7 @@ class Song
         @@artist_count = {@artist => artist_count}
       end
     end
+    @@artist_count
   end
   
 end
