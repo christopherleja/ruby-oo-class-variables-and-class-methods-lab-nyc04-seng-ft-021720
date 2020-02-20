@@ -32,7 +32,7 @@ class Song
   def self.genre_count
     @@genres.each do |genre|
     if genre == @genre
-      @genre_count += 1
+      genre_count += 1
     end
     end
   end
