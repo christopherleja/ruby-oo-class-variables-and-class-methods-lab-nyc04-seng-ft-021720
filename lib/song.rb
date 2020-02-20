@@ -44,7 +44,6 @@ class Song
         hash = {}
         hash[key] = @artist
         hash[@artist] = artist_count
-        {@artist => artist_count}
       end
     end
     hash
