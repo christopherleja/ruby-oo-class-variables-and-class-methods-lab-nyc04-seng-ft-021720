@@ -33,9 +33,8 @@ class Song
     @@artists.each do |artist|
       if artist == @artist
         artist_count += 1
-        @@artist_count = {@artist => artist_count}
+        {@artist => artist_count}
       end
-    @@artist_count.uniq
     end
   end
   
