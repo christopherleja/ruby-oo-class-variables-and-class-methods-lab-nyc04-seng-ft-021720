@@ -29,6 +29,11 @@ class Song
     @@genres.uniq
   end
   
+  def self.genre_count
+    @@genres.each do |genre|
+      if 
+  end
+  
   def self.artist_count
     @@artists.each do |artist|
       if artist == @artist
